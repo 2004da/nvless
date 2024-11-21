@@ -1,28 +1,14 @@
 {
-    "name": "nvless",
+    "name": "nodejs",
     "version": "0.0.1",
-    "description": "nodejs vless",
+    "description": "nodejs",
     "main": "index.js",
     "scripts": {
         "dev": "node --env-file=.env.local --import tsx src/index.ts",
         "start": "node --env-file=.env --import tsx src/index.ts"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/BanKnight/nvless.git"
-    },
-    "keywords": [
-        "node",
-        "vless",
-        "proxy"
-    ],
-    "author": "banknight",
     "license": "MIT",
     "packageManager": "npm@10.9.0",
-    "bugs": {
-        "url": "https://github.com/BanKnight/nvless/issues"
-    },
-    "homepage": "https://github.com/BanKnight/nvless#readme",
     "dependencies": {
         "tsx": "^4.7.0",
         "uuid": "^9.0.1",
